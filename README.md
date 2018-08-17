@@ -63,13 +63,14 @@ this.state = {
     
 - *Data-Analysis*: This feature is not yet in production.
 
-- *Profile*: The `<Profile />` component lives in the path `/src/componets/user-preferences/profile.js`.  It corresponse to the ".../profile" url.  It's main purpose is to render a page for users to change their personal settings.  This page provides `<Link />` components that will re-route users to the appropriate component for changing their settings.  Here is an example of how this component links to other components with the path ".../profile/\[other-component]"
-        ```
-        <div className='link-container'>
-          <Link to='/profile/username'>
-            <span>Change my username</span>
-          </Link>
-        </div>
-        ```
+- *Profile*: The `<Profile />` component lives in the path `/src/componets/user-preferences/profile.js`.  It corresponse to the ".../profile" url.  It's main purpose is to render a page for users to change their personal settings.  This page provides `<Link />` components that will re-route users to the appropriate component for changing their settings.  Here is an example of how this component links to other components with the path ".../profile/\[other-component]"  :
+
+```
+<div className='link-container'>
+  <Link to='/profile/username'>
+    <span>Change my username</span>
+  </Link>
+</div>
+```
     
 
