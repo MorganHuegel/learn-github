@@ -1,6 +1,5 @@
 ## Endurance Data
-
-#### the newest fitness tracking tool
+#### - the newest fitness tracking tool
 
 #### Deployment:
 
