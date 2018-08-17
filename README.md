@@ -47,14 +47,16 @@ There are 4 Main App Components: `<Login Screen />`, `<Workouts />`, `<Data-Anal
 
 
 - *Workouts*: The `<Workouts />` component lives in the `/src/components/workouts-list/workouts.js` path.  It corresponds to the url ".../workouts".  This is the main purpose of the entire app.  This component is stateful, and based on the state, it will render other components related to the workout log functionality.  The `<Workouts />` state looks like this:     
-`this.state = {`
-`      addingWorkout: false,`
-`      currentWorkout: null,`
-`      editingWorkout: false,`
-`      viewingWorkout: false,`
-`      deletingWorkout: false,`
-`      formOptions: []`
-`    }`
+```
+this.state = {
+      addingWorkout: false,
+      currentWorkout: null,
+      editingWorkout: false,
+      viewingWorkout: false,
+      deletingWorkout: false,
+      formOptions: []
+    }
+```
     
     
 - *Data-Analysis*: This feature is not yet in production.
