@@ -4,14 +4,14 @@
 
 
 
-#### Deployment:
+## Deployment:
 
   App is deployed at: https://endurancedata.netlify.com/ 
 
 
 
 
-#### Description:
+## Description:
 
   Endurance Data is a cloud-based workout log.  Endurance data is designed for use by endurance athletes (runners and cyclists).  This app has an easy-to-use interface, and is capable of tracking all of an athlete's training data.  Users enter data from their workouts manually, and Endurance Data will store and display this data.
 
@@ -21,9 +21,9 @@
 
 
 
-#### Screenshots:
+## Screenshots:
 
-#### Description of Tech Stack:
+## Description of Tech Stack:
 
    Endurance Data is created using React for the front-end and Node.js for the back-end.
 
@@ -31,7 +31,7 @@
 
    *Back-end:* Here is the [server-side repo](https://github.com/thinkful-ei22/morgan-fullStack-server.git) for this application.  The server-side is written in `Node.js` and uses `express` to route incoming requests.  The app uses a MongoDB to store the data, which is hosted by mLab.com.  The server-side uses `bcryptjs` to encrypt user passwords for maximum security.  The server-side also uses the `jsonwebtoken` library to issue webtokens to users, which is stored in local storage on the front-end.  The server-side uses `mongoose` as the query library when making calls to the database.  Server-side tests are written using the `mocha` and `chai` libraries, with `chai-http` to simulate requests to the server.  The back-end is deployed live using [heroku](https://endurance-data-server.herokuapp.com/).
 
-#### Description of Key Code Snippets:
+## Description of Key Code Snippets:
 
 The overarching parent component is `<App />`.  When this component renders, it will check local storage for a webtoken, and immediately try to fetch user data.  If data comes back, then the `<Dashboard />` is displayed.  If no data comes back, or if there is no token in local storage, the `<LoginScreen />` is displayed:
   ```
