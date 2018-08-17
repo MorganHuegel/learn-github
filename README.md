@@ -3,9 +3,11 @@
 
 
 
+
 #### Deployment:
 
 App is deployed at: https://endurancedata.netlify.com/ 
+
 
 
 
@@ -17,3 +19,10 @@ Endurance Data is unique to each user because each user can choose what data he/
 
 ...*Feature Coming Soon*...Endurance data will allow a user to perform an analysis of their data.  For example, a user might selete to see *"Miles per day over the past week"*, and Endurance Data would display *"You averaged 5.2 miles per day over the past week"*.  This feature is still in production, and the app works perfectly fine without it for now.
 
+
+
+#### Screenshots:
+
+#### Description of Tech Stack:
+
+#### Description of Key Code Snippets:
